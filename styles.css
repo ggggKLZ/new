@@ -1,0 +1,79 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: rgba(217, 7, 102, 0.816); /* Color de fondo más llamativo */
+    color: white;
+  }
+  
+  .container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .title {
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid white; /* Aumento del grosor del borde */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: white;
+    color: #e74c3c; /* Texto en color del fondo del encabezado */
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+
+.news {
+    text-align: center;
+  }
+  
+  .news p {
+    text-align: justify;
+  }
+  
+  .news img {
+    display: block;
+    margin: 0 auto; 
+    max-width: 45%; 
+    height: 250px;
+  }
+  
+  .video-container {
+  max-width: 800px; 
+  margin: 0 auto;
+}
+
+.video-container video {
+    display: block;
+    margin: 0 auto; 
+    max-width: 48%; 
+    height: 260px;}
+
